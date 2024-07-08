@@ -77,10 +77,10 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "Musau MD bot",
-  ownername:process.env.OWNER_NAME|| "Rare Species",
+  ownername:process.env.OWNER_NAME"Rare Species",
 
 
-  errorChat : process.env.ERROR_CHAT || "",
+  errorChat : process.env.ERROR_CHAT || "null",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
